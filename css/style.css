@@ -1,0 +1,23 @@
+:root {
+    --bluesoft: #F9FBFC;    
+    --blue: #3A38FF;
+    --purplesoft: #E5E4FF;
+    --navy: #101041;
+    --darkgrey: #949293;
+    --darkgrey2: #DFE2E7;
+    --grey: #DFE2E7;
+    --purple: #6261D8;
+    --green: #316762;
+    --white: #ffffff;
+
+    --fwbold: 700;
+    --fwextrabold: 800;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 400;
+    --fwlight: 300;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
