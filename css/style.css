@@ -53,18 +53,18 @@ body {
 }
 
 .btn-primary {
-    background: var(--blue);
-    color: var(--white);
-}
-
-.btn-primary:hover {
     padding: 12px 20px 12px 20px;
-    background: var(--navy);
+    background: var(--blue);
     color: var(--white);
     font-size: 16px;
     font-weight: var(--fwsemibold);
     border-radius: 50px;
     border: 0;
+}
+
+.btn-primary:hover {
+    background: var(--navy);
+    color: var(--white);
 }
 
 .btn-secondary {
@@ -81,6 +81,8 @@ body {
     background: var(--navy);
     color: var(--white) !important;
 }
+
+/* navbar */
 
 .navbar-nav .nav-item a:hover {
     color: var(--blue);
@@ -114,4 +116,65 @@ body {
     background: var(--white);
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
+}
+
+/* Header */
+
+.small-copy {
+    font-size: 14px;
+    color: var(--navy);
+    font-weight: var(--fwsemibold);
+}
+
+.badge {
+    padding: 8px 16px 8px 16px;
+    background: var(--purplesoft);
+    border-radius: 50px;
+    width: 300px;
+}
+
+.badge .icon {
+    float: left;
+    margin-right: 6px;
+}
+
+.badge .small-copy {
+    padding-top: 4px;
+    margin: 0;
+}
+
+.big-header {
+    font-weight: var(--fwextrabold);
+    color: var(--navy);
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+}
+
+.primary-copy {
+    font-size: 16px;
+    font-weight: var(--fwregular);
+    line-height: 28px;
+    color: var(--darkgrey);
+    margin: 0;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
