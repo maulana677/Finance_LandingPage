@@ -52,6 +52,36 @@ body {
     margin: 0;
 }
 
+.features .features-wrapper .big-feature-card {
+    padding: 30px;
+    border-radius: 16px;
+    background: var(--white);
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.features .features-wrapper .icon {
+    float: left;
+    width: 60px;
+    height: 200px;
+    margin-right: 18px;
+}
+
+.features .features-wrapper .icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.text-button {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.text-button:hover {
+    text-decoration: underline;
+    color: var(--navy);
+}
+
 .btn-primary {
     padding: 12px 20px 12px 20px;
     background: var(--blue);
@@ -167,6 +197,10 @@ body {
     margin-right: 10px;
 }
 
+.mr-30 {
+    margin-right: 30px;
+}
+
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -178,3 +212,63 @@ body {
 .mb-30 {
     margin-bottom: 30px;
 }
+
+.card-brand {
+    width: 227px;
+    height: 110px;
+    border-radius: 16px;
+    background: var(--darkgrey2);
+    text-align: center;
+}
+
+.card-brand .logo {
+    height: 50px;
+    margin-top: 30px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    height: 110px;
+    animation: moveSlideToLeft 25s linear infinite;
+}
+
+.carousel {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    overflow: hidden;
+}
+
+@keyframes moveSlideToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes moveSlideToRight {
+    0% {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.carousel-wrapper-left {
+    display: flex;
+    height: 110px;
+    animation: moveSlideToRight 25s linear infinite;
+}
+
+.carousel-left {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    overflow: hidden;
+}
+
