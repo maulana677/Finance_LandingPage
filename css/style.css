@@ -52,6 +52,26 @@ body {
     margin: 0;
 }
 
+/* Header */
+
+.form-control {
+    border-radius: 50px;
+    border: 0;
+    background: var(--white);
+    padding: 12px 20px 12px 20px;
+}
+
+.form-select {
+    border-radius: 50px;
+    border: 0;
+    padding: 12px 20px 12px 20px;
+    background: var(--white);
+    background-image: url('../images/icon_dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 24px;
+}
+
 .features-wrapper:hover .big-feature-card:not(:hover) {
     filter: blur(4px);
     transition: all 0.3s ease;
@@ -229,6 +249,10 @@ body {
 
 .mb-10 {
     margin-bottom: 10px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
 }
 
 .mb-20 {
